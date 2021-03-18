@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 
-
+@media screen and (max-width: 520px) {
+    #switch{
+        height: 27px;
+        font-size: xx-small;
+        width: 53px;
+        padding: 0;
+        border-bottom-right-radius: 10px;
+    }
+    
+  }
 :root{
     --width-break:600px;
 }
@@ -22,6 +31,11 @@
     height: 60px;
     
 
+}
+#switch{
+    border: 1px solid;
+    border-bottom-right-radius: 10px;
+    
 }
 #img{
     float: left;
